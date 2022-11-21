@@ -1,0 +1,63 @@
+/* Define custom variables */
+:root {
+    --primaryColor: darkcyan;
+    --secondaryColor: rgb(26, 48, 48);
+    --alternativeColor: rgb(69, 118, 209);
+    --redColor: rgb(102, 11, 11);
+    --whiteText:white;
+    /* none | h-offset (X) v-offset (Y) blur spread color |inset|initial|inherit*/
+    --mainBoxShadow: .3vw .3vw 1vw rgba(120, 200, 87, 11);
+}
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image:linear-gradient(to right, #d78b8b , #bdf2f3 , #d78b8b);;
+}
+h1 {
+    margin-left: 30rem;
+    font-weight: 800px;
+}
+h2 {
+    margin-top: 4rem;
+    margin-left: 22rem;
+    font-weight: 600px;
+}
+.form {
+    margin-top: 4rem;
+    margin-left: 22rem;
+}
+.form-control {
+    height: 3rem;
+    width:30rem;
+    border: 3px solid #d78b8b;
+}
+.fN {
+    margin-top: 1rem;
+}
+.NumofChars {
+    scale: 1.01;
+}
+.Search {
+    margin-left: 16rem;
+    width: 5rem;
+    scale: 1.01;
+}
+#DisplayNumofChars {
+    margin-top: 1rem;
+    background-color: aliceblue;
+    height: 3rem;
+    width: 30rem;
+    border: 3px solid #d78b8b;
+}
+#DisplaySearch {
+    margin-top: 1rem;
+    background-color: aliceblue;
+    height: 3rem;
+    width: 30rem;
+    border: 3px solid #d78b8b;
+}
